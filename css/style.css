@@ -1,0 +1,117 @@
+html,
+    body {
+    	background-image: url("../images/FullSizeRender.jpg");
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        text-align: center;
+        color: #fff;
+        font-family: Oxygen, sans-serif;
+    }
+
+    #plane {
+        border-radius: 8px;
+        height: 250px;
+        width: 250px;
+        
+    }
+
+    .links {
+        color: deepskyblue;
+    
+    }
+
+    .name {
+        color: #fff;
+        text-align: center;
+        text-decoration: bold;
+        text-transform: none;
+        font-family: Oxygen, sans-serif;
+        font-size: 130px;
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+
+    .nav {
+        margin-top: 50px;
+    }
+
+    .icons ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+
+    .icons ul li {
+        padding: 30px 15px;
+        display: inline-block;
+    }
+
+    .icons ul li a {
+        color: #000;
+        background-color: #DCDCDC;
+        border-radius: 100px;
+        font-size: 40px;
+        padding: 13px 38px;
+        transition: .5s ease-in-out;
+        -webkit-transition: .5s ease-in-out;
+    }
+
+    .icons ul li a:hover,
+    .icons ul li a:focus {
+        color: #000;
+        background-color: #fff;
+        transition: .5s ease-in-out;
+        -webkit-transition: .5s ease-in-out;
+    }
+
+    .icons ul li a i {
+        margin: 0 auto;
+        width: 50px;
+        height: 50px
+    }
+
+    .about {
+      color: #fff;
+      padding: 5px 5px;
+      background-color: #707070;
+      width: 50%;
+      padding: 15px 15px;
+      text-align: center;
+      border-radius: 25px;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+    .about img {
+      border-radius: 8px;
+      margin-bottom: 15px;
+      width: 150px;
+    }
+
+
+    footer {
+        color: #fff;
+        margin-top: 50px;
+        font-size: 18px;
+        font-family: Oxygen, sans-serif;
+    }
+
+    footer .copyright {
+        padding: 25px 0;
+        color: #fff;
+        font-family: Oxygen, sans-serif;
+    }
+
+    /* Selection */
+    ::selection {
+      background: lightgreen;
+    }
+
+    ::-moz-selection {
+      background: red;
+    }
